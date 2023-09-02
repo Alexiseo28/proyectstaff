@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegios Prolog</title>    
+    <meta property="og:url" content="https://colegiosprolog.edu.pe" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Colegios Prolog" />
+    <meta property="og:description" content="Somos una institución educativa con 20 años de experiencia, que forma estudiantes con alto nivel académico y valores. Producto de ello hemos logrado obtener una serie de reconocimientos a nivel nacional e internacional por la participación de nuestros estudiantes en diversos concursos y olimpiadas." />
+    <meta property="og:image" content="https://colegiosprolog.edu.pe/img/slide2.jpg" />
+    <meta property="og:image:alt" content="Somos Colegios Prolog"/>
+    <link rel="icon" href="img/icon-prolog-32.png" sizes="32x32"/>
+   	<link rel="icon" href="img/icon-prolog-192.png" sizes="192x192"/>
+   	<link rel="apple-touch-icon" href="img/icon-prolog-180.png"/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="plugins/splide/css/splide.min.css">
+    <link rel="stylesheet" href="css/prolog.css">
+    <link rel="stylesheet" href="css/iziToast.css">	    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131072106-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131072106-1');
+    </script>  
+	<!-- End Meta Pixel Code -->
+    <style>
+        .iziToast-wrapper {
+            position: absolute;
+            bottom: 25px;
+            z-index: 8000;
+        }
+        .banner_new_heuristica{
+            position: relative;
+            width: 100%;
+            background-image: linear-gradient(to right bottom, #ff0000, #fa0046, #e00072, #b50093, #7d34a4, #673392, #53307f, #412c6c, #3f1e49, #32142c, #1f0d17, #000000);
+            /*background: url("../img/banner_new.jpg");
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;*/
+            margin-top: 85px;
+            /* height: 530px; */
+            overflow: hidden;
+        }
+        .div-agenta-reunion{
+            display: flex;
+            margin-top: 0px;
+        }
+        .headx .clogoheuristica {
+            position: relative;
+            float: left;
+            margin-top: 0px;
+            margin-right: 5px;
+            margin-left: 15px;
+            width: 60px;    
+            -webkit-transition: all 300ms ease-in-out;
+            -moz-transition: all 300ms ease-in-out;
+            -ms-transition: all 300ms ease-in-out;
+            -o-transition: all 300ms ease-in-out;
+            transition: all 300ms ease-in-out;
+        }
+        .headx .clogoheuristica img {
+            width: 100%;
+        }
+        .propuesta-valor{
+            width: auto;
+        }
+        .div-whatsapp-call a{
+            text-decoration: none;
+            color: #ffffff !important;
+        }
+        @media (min-width: 0px){
+            .headx .clogoheuristica {
+                position: relative;
+                float: left;
+                margin-top: 0px;
+                margin-right: 5px;
+                margin-left: 15px;
+                width: 65px;    
+            }
+            .banner_new_heuristica {
+                margin-top: 70px;
+            }
+            .div-agenta-reunion{
+                margin-top: 60px;
+            }
+            .propuesta-valor{
+                width: auto;
+            }
+        }
+        @media (min-width: 257px) {
+            .div-agenta-reunion{
+                margin-top: 45px;
+            }
+            .propuesta-valor{
+                width: auto;
+            }
+        }
+        @media (min-width: 320px) {
+            .div-agenta-reunion{
+                margin-top: 45px;
+            }
+            .propuesta-valor{
+                width: auto;
+            }
+        }
+        @media (min-width: 410px) {
+            .headx .clogoheuristica {
+                position: relative;
+                float: left;
+                margin-top: 0px;
+                margin-right: 5px;
+                margin-left: 15px;
+                width: 65px;    
+            }
+            .propuesta-valor{
+                width: 70%;
+                margin: auto;
+            }
+        }
+        @media (min-width: 480px) {
+            .div-agenta-reunion{
+                margin-top: 45px;
+            }
+            .propuesta-valor{
+                width: 60%;
+                margin: auto;
+            }
+        }
+        @media (min-width: 576px) {
+            .propuesta-valor{
+                width: auto;
+            }
+        }
+        @media (min-width: 640px) {
+            
+        }
+        @media (min-width: 768px) {
+            .banner_new_heuristica {
+                margin-top: 70px;
+            }
+            .div-agenta-reunion{
+                margin-top: 0px;
+            }
+            .propuesta-valor{
+                width: 80%;
+                margin: auto;
+            }
+        }
+        @media (min-width: 992px) {
+            .headx .clogoheuristica {
+                position: relative;
+                float: left;
+                margin-top: 0px;
+                margin-right: 5px;
+                margin-left: 15px;
+                width: 65px;    
+            }
+            .banner_new_heuristica {
+                margin-top: 70px;
+            }
+            .div-agenta-reunion{
+                margin-top: 0;
+            }
+        }
+        @media (min-width: 1200px) {
+            .headx .clogoheuristica {
+                position: relative;
+                float: left;
+                margin-top: 0px;
+                margin-right: 5px;
+                margin-left: 15px;
+                width: 60px;    
+            }
+            .banner_new_heuristica {
+                margin-top: 90px;
+            }
+            .div-agenta-reunion{
+                margin-top: 0;
+            }
+            .propuesta-valor{
+                width: 70%;
+                margin: auto;
+            }
+        }
+        @media (min-width: 1366px){
+
+        }
+        @media (min-width: 1400px){
+
+        }
+        @media (min-width: 1470px){
+            .headx .clogoheuristica {
+                position: relative;
+                float: left;
+                margin-top: 0px;
+                margin-right: 5px;
+                margin-left: 15px;
+                width: 60px;    
+            }
+            .banner_new_heuristica {
+                margin-top: 90px;
+            }
+            .div-agenta-reunion{
+                margin-top: 0;
+            }
+            .propuesta-valor{
+                width: 60%;
+                margin: auto;
+            }
+        }
+        @media (min-width: 1480px){
+            .banner_new_heuristica {
+                margin-top: 90px;
+            }
+            .div-agenta-reunion{
+                margin-top: 0;
+            }
+            .propuesta-valor{
+                width: 55%;
+                margin: auto;
+            }
+        }
+        @media (min-width: 1550px){
+            .banner_new_heuristica {
+                margin-top: 90px;
+            }
+            .div-agenta-reunion{
+                margin-top: 0;
+            }
+            .propuesta-valor{
+                width: 50%;
+                margin: auto;
+            }
+        }
+        @media (min-width: 1750px){
+            .banner_new_heuristica {
+                margin-top: 90px;
+            }
+            .div-agenta-reunion{
+                margin-top: 0;
+            }
+            .propuesta-valor{
+                width: 50%;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>  
+    
+    <div class="headx head_new">        
+        <div class="clogoheuristica">
+            <a href="editorial-heuristica"><img src="img/logo_heuristica.png" alt=""></a>
+        </div>
+        <!--<div class="cnavmobil">            
+            <a id="btNavMobil"><i class="fas fa-bars"></i></a>            
+        </div>
+        <div class="cmenu">
+            <ul>
+                <li class="itemrespons"><a href="inicio" class="menuActivo">INICIO</a></li>
+                <li class="itemrespons"><a href="propuesta-educativa" class="a_new">PROPUESTA EDUCATIVA</a></li>
+                <li class="itemrespons"><a href="sedes" class="a_new">SEDES</a></li>
+                <li class="itemrespons"><a href="noticias" class="a_new">NOTICIAS</a></li>                
+                <li class="itemrespons"><a href="https://plataformadigitalprolog.com" class="a_new">AULA VIRTUAL</a></li>
+                <li class=""><a href="https://wa.me/+5114800505" target="_blank" class="whts"><i class="fab fa-whatsapp"></i> 480-0505</a></li>
+            </ul>
+        </div>-->
+        <div style="padding-top: 15px;">
+            <h2> EDITORIAL HEURISTICA</h2>
+        </div>
+    </div>
+    <div class="banner_new_heuristica">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12 div-agenta-reunion">
+                    <div class="text-center" style="margin: auto;"><h3 style="color: white;">AGENDA TU REUNION CON UN ESPECIALISTA:</h3></div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12 d-flex pb-4 justify-content-center align-items-center">
+                    <div class="form_bann shadow">
+                        <form id="formmainheuristica" name="formmainheuristica" method="post" autocomplete="off">
+                            <div class="row">
+                                <div class="col-sm-12 col-12 text-center tit">
+                                    <p>FORMULARIO DE INGRESO</p>
+								</div>
+                                <div class="col-sm-12 col-12 mb-2">
+                                    <label for="exampleFormControlInput2" class="form-label"><i class="far fa-user"></i> DNI</label>
+                                    <div class="form-group">							
+                                        <input type="text" class="form-control form-control-sm xtxdnimain" name="tdnimain" id="exampleFormControlInput2" placeholder="Ingrese DNI...">
+									</div>
+                                </div>
+                                <div class="col-sm-12 col-12 mb-2">
+                                    <label for="exampleFormControlInput1" class="form-label"><i class="far fa-user"></i> Nombre Completo</label>
+                                    <div class="form-group">							
+                                        <input type="text" class="form-control form-control-sm xtxnomapemain" name="tnomapemain" id="exampleFormControlInput1" placeholder="Ingrese nombre y apellido...">
+									</div>
+                                </div>
+                                <div class="col-sm-12 col-12 mb-2">
+                                    <label for="exampleFormControlInput3" class="form-label"><i class="far fa-user"></i> Telefono</label>
+                                    <div class="form-group">							
+                                        <input type="text" class="form-control form-control-sm xtxtelmain" name="ttelmain" id="exampleFormControlInput3" placeholder="Ingrese un telefono...">
+									</div>
+                                </div>
+                                <div class="col-sm-12 col-12 mb-2">
+                                    <label for="exampleFormControlInput4" class="form-label"><i class="far fa-user"></i> Correo Coorporativo</label>
+                                    <div class="form-group">							
+                                        <input type="text" class="form-control form-control-sm xtxemailcoormain" name="temailcoormain" id="exampleFormControlInput4" placeholder="Ingrese un correo coorporativo...">
+									</div>
+                                </div>
+                                <div class="col-sm-12 col-12 mb-2">
+                                    <label for="exampleFormControlInput5" class="form-label"><i class="far fa-user"></i> Colegio de Procedencia</label>
+                                    <div class="form-group">							
+                                        <input type="text" class="form-control form-control-sm xtxcolprocemain" name="tcolprocemain" id="exampleFormControlInput5" placeholder="Ingrese el colegio de procedencia...">
+									</div>
+                                </div>
+                                <div class="col-sm-12 col-12 mb-2">
+                                    <label for="exampleFormControlInput6" class="form-label"><i class="far fa-user"></i> Provincia</label>
+                                    <div class="form-group">							
+                                        <input type="text" class="form-control form-control-sm xtxprovinmain" name="tprovinmain" id="exampleFormControlInput6" placeholder="Ingrese una provincia...">
+									</div>
+                                </div>
+                                <div class="col-sm-12 col-12 mb-2">
+                                    <label for="exampleFormControlInput7" class="form-label"><i class="far fa-user"></i> Comentario</label>
+                                    <div class="form-group">							
+                                        <textarea id="exampleFormControlInput7" name="tcomentariomain" id="exampleFormControlInput7" class="form-control xtxcomentariomain" rows="4" placeholder="Ingrese un comentario" style="width: 100%;position:relative;"></textarea>
+									</div>
+                                </div>
+                                <div class="col-sm-12 col-12 mt-2 mb-2 text-center">
+                                    <button class="btn btn-primary" type="submit">Agendar Reunion</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    
+    <div class="propuestas" style="margin-top:80px;margin-bottom:90px">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 mt-1 mb-3">
+                    <h3 style="color: #0046A0">QUIENES SOMOS</h3>
+                </div>
+            </div>
+            <div class="row" style="border: solid 2px #000000">
+                <div class="col-sm-6 col-12">
+                    <div id="carrusel01-slider" class="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="img/docentes-capacitados.jpg">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="img/directo-a-la-universidad.jpg">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="img/seguimiento-academico.jpg">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="img/psicopedagogia.jpg">                        
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="mt-3 mb-2">
+                        <h5 class="text-center">TITULO 01</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque, consectetur, perferendis porro fuga autem odit quos voluptatum aut sequi maiores mollitia. Quam, neque temporibus! Consectetur quia numquam voluptatem nostrum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2" style="border: solid 2px #000000">
+                <div class="col-sm-6 col-12">
+                    <div id="carrusel02-slider" class="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="img/material-educativo.jpg">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="img/plataforma-educativa.jpg">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="img/escuela-para-padres.jpg">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="img/ingles.jpg">                        
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="mt-3 mb-2">
+                        <h5 class="text-center">TITULO 02</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque, consectetur, perferendis porro fuga autem odit quos voluptatum aut sequi maiores mollitia. Quam, neque temporibus! Consectetur quia numquam voluptatem nostrum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 mt-1 mb-3">
+                    <h3 style="color: #0046A0">PROPUESTA DE VALOR</h3>
+                </div>
+            </div>
+            <div class="row propuesta-valor" style="border: solid 2px #000000">
+                <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 imgbloq">
+                    <img src="img/docentes-capacitados.jpg" alt=""><br>
+                    <h4>Docentes Capacitados</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 imgbloq">
+                    <img src="img/directo-a-la-universidad.jpg" alt=""><br>
+                    <h4>Directo a la universidad</h4>
+                </div>
+            </div>
+            <div class="row propuesta-valor" style="border: solid 2px #000000">
+                <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 imgbloq">
+                    <img src="img/material-educativo.jpg" alt=""><br>
+                    <h4>Material Educativo</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 imgbloq">
+                    <img src="img/plataforma-educativa.jpg" alt=""><br>
+                    <h4>Plataforma Educativa</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12 text-center">                
+                <h3 style="color: #0046A0">INFORMACION REVELANTE</h3>
+            </div>
+        </div>
+        <div class="row mt-3" style="border: solid 2px #c5ac77">
+            <div class="col-md-4 col-sm-6 col-12 text-center">                
+                <p style="color: #0046A0; margin-top: 15px;">+50 Contrados cerrados</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 text-center">                
+                <p style="color: #0046A0; margin-top: 15px;">+100000 libros entregados</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 text-center">                
+                <p style="color: #0046A0; margin-top: 15px;">+5 años en el mercado</p>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: #0046A0" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">                
+                    <h3 style="color: #ffffff">COMUNICATE CON UN ASESOR AHORA</h3>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 col-sm-12 col-12 div-whatsapp-call text-center">                
+                    <div><a href="https://wa.me/+51999054521" target="_blank"><i class="fab fa-whatsapp"></i> +51 999-054521  <a href="https://wa.me/+51999054521" target="_blank">+WhatsApp</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--<div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12 text-center">                
+                <h3 style="color: #072B77">LO QUE DICEN DE NOSOTROS</h3>
+            </div>
+            <div class="col-12 mt-3">
+                <div id="coment-slider" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="img/coment1.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment2.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment3.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment4.png">                        
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment5.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment6.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment7.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment8.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment9.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment10.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment11.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="img/coment12.png">
+                            </li>
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>-->
+    
+    <!--<footer style="background-color: #072b77" class="">
+        <div class="container">
+            <div class="row row justify-content-center align-items-center">
+                <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                    <div class="logofoot"><a href="inicio"><img src="img/logo_web.png" width="100" alt=""></a></div>
+                    <div class="infofoot">
+                        <div><a href="https://wa.me/+5114800505" target="_blank"><i class="fas fa-phone-alt"></i> 480-0505  <a href="https://wa.me/+5114800505" target="_blank">+WhatsApp</a></div>
+                        <div><i class="far fa-envelope"></i> contacto@colegiosprolog.edu.pe</div>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                    <div class="redefoot">
+                        <a href="https://www.facebook.com/ColegiosProlog" target="_blank" title="ir a Facebook"><i class="fab fa-facebook"></i></a> 
+                        <a href="https://www.youtube.com/channel/UC9BD65X_FpScaA2WyoR--5w" target="_blank" title="ir a Youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/colegiosprolog/" target="_blank" title="ir a Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="copyfoot">
+                        <a href="">Trabaja con nosotros</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLScO5jJocLZG_Ma4TPIlLmNfnQu3x5uywfbpueA07iONO7aULA/viewform" target="_blank">Reclamos y/o sugerencias</a><br>
+                        &copy Todos los derechos reservados 2021.
+                    </div>                    
+                </div>
+            </div>
+        </div>        
+    </footer>-->
+    <div class="burbujaWhts">
+        <a href="https://wa.me/+5114800505" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/iziToast.js" type="text/javascript"></script>
+    <script src="plugins/splide/js/splide.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/validator/jquery.validate.js"></script>
+    <script src="js/jsprolog.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            /*new Splide( '#coment-slider', {
+                type   : 'loop',
+                autoplay : 'playing',
+                speed : 600,
+                interval: 7000,
+                pauseOnHover: false,
+                pauseOnFocus: false,                
+                perPage: 3,
+                breakpoints: {
+                    1399: {
+                        perPage: 2,
+                    },
+                    974: {
+                        perPage: 1,
+                    }
+                }
+            } ).mount();*/
+
+            new Splide( '#carrusel01-slider', {
+                type   : 'loop',
+                autoplay : 'playing',
+                speed : 600,
+                interval: 7000,
+                pauseOnHover: false,
+                pauseOnFocus: false,                
+                perPage: 3,
+                breakpoints: {
+                    1399: {
+                        perPage: 2,
+                    },
+                    974: {
+                        perPage: 1,
+                    }
+                }
+            } ).mount();
+
+            new Splide( '#carrusel02-slider', {
+                type   : 'loop',
+                autoplay : 'playing',
+                speed : 600,
+                interval: 7000,
+                pauseOnHover: false,
+                pauseOnFocus: false,                
+                perPage: 3,
+                breakpoints: {
+                    1399: {
+                        perPage: 2,
+                    },
+                    974: {
+                        perPage: 1,
+                    }
+                }
+            } ).mount();
+        } );
+        
+    </script>
+</body>
+</html>
