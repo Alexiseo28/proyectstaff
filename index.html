@@ -596,7 +596,7 @@
 
             new Splide( '#carrusel01-slider', {
                 type   : 'loop',
-                arrows: false,
+                arrows: true,
                 /*speed : 600,
                 interval: 7000,*/
                 pauseOnHover: false,
@@ -604,12 +604,10 @@
                 perPage: 2,
                 breakpoints: {
                     1399: {
-                        perPage: 2,
-                        arrows: false
+                        perPage: 2
                     },
                     974: {
-                        perPage: 1,
-                        arrows: false
+                        perPage: 1
                     }
                 }
             } ).mount();
