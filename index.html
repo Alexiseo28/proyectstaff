@@ -249,6 +249,15 @@
                 margin: auto;
             }
         }
+        @media all and (max-width: 974px) {
+            .splide__arrows {
+                display: none;
+            }
+            .splide {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
     </style>
 </head>
 <body>  
@@ -600,7 +609,7 @@
                     },
                     974: {
                         perPage: 1,
-                        arrows: true
+                        arrows: false
                     }
                 }
             } ).mount();
