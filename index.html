@@ -584,18 +584,20 @@
 
             new Splide( '#carrusel01-slider', {
                 type   : 'loop',
-                autoplay : 'playing',
-                speed : 600,
-                interval: 7000,
+                arrow: false,
+                /*speed : 600,
+                interval: 7000,*/
                 pauseOnHover: false,
                 pauseOnFocus: false,                
                 perPage: 2,
                 breakpoints: {
                     1399: {
-                        perPage: 2
+                        perPage: 2,
+                        arrow: false
                     },
                     974: {
-                        perPage: 1
+                        perPage: 1,
+                        arrow: true
                     }
                 }
             } ).mount();
